@@ -2,8 +2,6 @@ from pprint import pprint
 import operator
 import os
 
-print("\nTASK1\n")
-
 file_name = "recipes.txt"
 
 def get_cook_book(file_name):
@@ -28,7 +26,6 @@ pprint(outcome)
 
 
 
-print("\nTASK2\n")
 
 def get_shop_list_by_dishes(dishes, number_of_persons):
     ingeridients = {}
@@ -46,7 +43,7 @@ pprint(ingredients_and_quantity_dict)
 
 
 
-print("\nTASK3\n")
+
 
 def get_info_and_writing_to_list(file_names):
     '''Считывание содержимого файлов и запись информации в список'''
